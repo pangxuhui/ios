@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9021508F1DD070CE006496C7 /* tab.m in Sources */ = {isa = PBXBuildFile; fileRef = 9021508E1DD070CE006496C7 /* tab.m */; };
 		90892AE61DD05FA70039B131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90892AE51DD05FA70039B131 /* main.m */; };
 		90892AE91DD05FA70039B131 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90892AE81DD05FA70039B131 /* AppDelegate.m */; };
 		90892AEC1DD05FA70039B131 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90892AEB1DD05FA70039B131 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9021508D1DD070CE006496C7 /* tab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tab.h; sourceTree = "<group>"; };
+		9021508E1DD070CE006496C7 /* tab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tab.m; sourceTree = "<group>"; };
 		90892AE11DD05FA70039B131 /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90892AE51DD05FA70039B131 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90892AE71DD05FA70039B131 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				90892AE81DD05FA70039B131 /* AppDelegate.m */,
 				90892AEA1DD05FA70039B131 /* ViewController.h */,
 				90892AEB1DD05FA70039B131 /* ViewController.m */,
+				9021508D1DD070CE006496C7 /* tab.h */,
+				9021508E1DD070CE006496C7 /* tab.m */,
 				90892AED1DD05FA70039B131 /* Main.storyboard */,
 				90892AF01DD05FA70039B131 /* Assets.xcassets */,
 				90892AF21DD05FA70039B131 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				90892AEC1DD05FA70039B131 /* ViewController.m in Sources */,
 				90892AE91DD05FA70039B131 /* AppDelegate.m in Sources */,
 				90892AE61DD05FA70039B131 /* main.m in Sources */,
+				9021508F1DD070CE006496C7 /* tab.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				90892AFA1DD05FA70039B131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
